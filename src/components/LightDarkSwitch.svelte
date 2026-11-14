@@ -12,7 +12,7 @@ import { onMount } from "svelte";
 import type { LIGHT_DARK_MODE } from "@/types/config.ts";
 
 // Astro consumes this hydration directive before mounting the component.
-let {}: { "client:only"?: "svelte" } = $props();
+let props: { "client:only"?: "svelte" } = $props();
 
 const seq: LIGHT_DARK_MODE[] = [LIGHT_MODE, DARK_MODE, AUTO_MODE];
 let mode: LIGHT_DARK_MODE = $state(AUTO_MODE);
