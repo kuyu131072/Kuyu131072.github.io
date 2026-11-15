@@ -5,7 +5,7 @@ description: "How to use this blog template."
 image: "/images/mountain-cover.jpg"
 tags: ["Fuwari", "Blogging", "Customization"]
 category: Guides
-draft: false
+draft: true
 ---
 
 This blog template is built with [Astro](https://astro.build/). For the things that are not mentioned in this guide, you may find the answers in the [Astro Docs](https://docs.astro.build/).
