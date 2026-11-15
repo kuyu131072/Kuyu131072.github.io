@@ -69,7 +69,7 @@ src/content/posts/hello-fuwari/
 - **正文图片**在正文写成 `![照片内容的简短说明](./photo.jpg)`。
 - 如果多篇文章共用图片，也可上传到 `public/images/`。例如仓库里的 `public/images/cover.jpg`，封面写成 `image: "/images/cover.jpg"`，正文可写成 `![图片说明](/images/cover.jpg)`。
 - 文件名和引用的大小写、扩展名需一致，例如 `.jpg` 与 `.jpeg` 对应不同文件。尽量使用小写英文文件名。
-- 官方同目录封面的例子可查看 [`src/content/posts/guide/index.md`](src/content/posts/guide/index.md)。
+- 使用 `public/images/` 封面的例子可查看 [`src/content/posts/guide/index.md`](src/content/posts/guide/index.md)。
 
 ## 公式、代码和文章目录
 
